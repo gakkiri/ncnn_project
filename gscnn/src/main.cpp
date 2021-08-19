@@ -23,8 +23,8 @@ const std::vector<std::vector<int>> colors = {
 
 int main(int argc, char** argv) {
 
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s [imagepath]\n", argv[0]);
+    if (argc != 3) {
+        fprintf(stderr, "Usage: %s [imagepath] [weightpath]\n", argv[0]);
         return -1;
     }
 
@@ -37,6 +37,9 @@ int main(int argc, char** argv) {
         return -1;
     }
 
+    const char* weight_root = argv[2];
+    std::string const& path_param = std::string(weight_root) + "/ckp_512_1024.param";
+    std::string const& path_bin = std::string(weight_root) + "/ckp_512_1024.bin";
 
     ncnn::Mat in = ncnn::Mat::from_pixels_resize(bgr.data, ncnn::Mat::PIXEL_BGR2RGB, bgr.cols, bgr.rows, input_w, input_h);
 
@@ -48,8 +51,8 @@ int main(int argc, char** argv) {
 
     ncnn::Net gscnn;
     gscnn.opt.use_vulkan_compute = true;
-    gscnn.load_param("weight/ckp_512_1024.param");
-    gscnn.load_model("weight/ckp_512_1024.bin");
+    gscnn.load_param(path_param.c_str());
+    gscnn.load_model(path_bin.c_str());
     ncnn::Extractor ex = gscnn.create_extractor();
 
     ex.input("input", in);
