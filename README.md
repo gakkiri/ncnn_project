@@ -9,3 +9,6 @@ The `.param` and `.bin` can be taken from [google drive](https://drive.google.co
 #### Take a random sample from a Beijing street scene
 ![e1](https://github.com/gakkiri/ncnn_project/blob/main/gscnn/asserts/test.jpg?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
 ![e1](https://github.com/gakkiri/ncnn_project/blob/main/gscnn/asserts/vis.png?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
+
+## [CenterNet](https://github.com/xingyizhou/CenterNet)
+WIP
