@@ -97,7 +97,6 @@ int main(int argc, char** argv) {
 
     for (int i = 0; i < inputs.size(); i++) {
         cv::Mat input = inputs[i];
-        cv::imwrite("a/"+std::to_string(i)+".jpg", input);
         const auto &coord = x0y0_coords[i];
 
         // ncnn::Mat in = ncnn::Mat::from_pixels_resize(input.data, ncnn::Mat::PIXEL_BGR2RGB, 
