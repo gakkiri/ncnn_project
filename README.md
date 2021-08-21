@@ -35,4 +35,4 @@ The input size is fixed at `h, w = 256, 256`. In order to achieve a better effec
 The ncnn weight [google drive](https://drive.google.com/drive/folders/10NicU1cK7Yuj2LFiEQblxeDiO5Tb7zsR?usp=sharing)  
 
 ![e1](https://github.com/gakkiri/ncnn_project/blob/main/unet_vb/asserts/test.jpg?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
-![e1](https://github.com/gakkiri/ncnn_project/blob/main/unet_vb/asserts/vis.png?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
+![e1](https://github.com/gakkiri/ncnn_project/blob/main/unet_vb/asserts/vis.jpg?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
