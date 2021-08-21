@@ -71,8 +71,8 @@ int main(int argc, char** argv) {
     }
 
     const char* weight_root = argv[2];
-    std::string const& path_param = std::string(weight_root) + "/ncnn.param";
-    std::string const& path_bin = std::string(weight_root) + "/ncnn.bin";
+    std::string const& path_param = std::string(weight_root) + "/unet_vb.param";
+    std::string const& path_bin = std::string(weight_root) + "/unet_vb.bin";
 
     std::vector<cv::Mat> inputs;
     std::vector<std::vector<int>> x0y0_coords;
