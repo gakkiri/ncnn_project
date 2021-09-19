@@ -5,6 +5,7 @@ This repo is dedicated to the my ncnn's toy projects.
 1. [Gated-SCNN](#Gated-SCNN)
 2. [CenterNet](#CenterNet)
 3. [UNet-VB](#UNet-VB)
+4. [FaceMesh](#facemesh)
 
 <div id="Gated-SCNN"></div>
 
@@ -36,3 +37,16 @@ The ncnn weight [google drive](https://drive.google.com/drive/folders/10NicU1cK7
 
 ![e1](https://github.com/gakkiri/ncnn_project/blob/main/unet_vb/asserts/test.jpg?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
 ![e1](https://github.com/gakkiri/ncnn_project/blob/main/unet_vb/asserts/vis.jpg?raw=true?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNDk3ODQ1,size_16,color_FFFFFF,t_70)
+
+<div id="facemesh"></div>
+
+## [FaceMesh](https://github.com/google/mediapipe)
+
+Not exactly the same as the google official implementation.
+
+The main difference is that the face detector in MediaPipe is not used here. Besides, the five keypoints of the face were not detected. So the face is not aligned horizontally and going straight to the Landmarks detection. Obviously, this must make a performance difference.
+
+
+
+
+
